@@ -1,0 +1,12 @@
+span {
+   display: inline-block;
+   width: 90px;
+}
+
+.hold {
+   border: 3px solid #cc0033;
+}
+
+.hidden {
+   display: none;
+}
