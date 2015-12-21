@@ -10,6 +10,11 @@ Students will create all of the HTML, CSS, and Javascript for this assignment, f
 - Javascript objects
 - AJAX
 
+### Resources Provided
+- **Quote API**: http://quotesondesign.com/api/3.0/api-3.0.json
+- **Inspiration Image**: hawnuhlee_inspiring.jpg
+- **Chrome Dev Security Toggle Info**: [Remember that this is dangerous](http://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome)
+
 ## Required Functionality
 - On page load, a quote loads from the API and is displayed on the web page.
 - When user clicks the "Get Inspired" button, a new quote is fetched from the API and is displayed on the web page. (Note: the API gives only one quote a minute.)
