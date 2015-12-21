@@ -45,4 +45,7 @@ The following criteria is strongly suggested to be followed, but is not required
   Remember: The point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you’re saying rather than on how you’re saying it. (from [Google HTML/CSS Styleguide](https://google.github.io/styleguide/htmlcssguide.xml#Section_Comments))
   </dd>
 
+  <dt>Image Accessibility</dt>
+  <dd>If images are present, especially those that are used for navigation, they have an ALT tag that describes the image and its link so people who are visually impaired can use the site well.</dd>
+
 </dl>
