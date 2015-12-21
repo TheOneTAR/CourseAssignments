@@ -1,6 +1,8 @@
-# PDXCodeGuild's Grading Rubric
+# PDXCodeGuild's Assignment Grading Rubric
 
-The following items are evaluated for all assignments submitted for grading to PDX Code Guild on a Pass, Fail, or Pass with Distinction basis.
+Each assignment is worth a percentage of your final grade in the course. The exact value of that percentage depends on the difficulty, scale, and overall complexity of the assignment. Your final evaluation score at PDXCodeGuild is based on your assignment performance, Capstone project, and peer reviews.
+
+The following items are evaluated for all assignments submitted for grading to PDXCodeGuild on a Pass, Fail, or Pass with Distinction basis.
 
 ## Required Criteria
 
@@ -8,6 +10,10 @@ The following items are evaluated for all assignments submitted for grading to P
 
   <dt>Functionally Complete</dt>
   <dd>All the functional requirements of the assignment have been met.</dd>
+
+  <dt>Errors and Error Handling</dt>
+  <dd>The assignment is error-free on normal operation and properly handles errors when they are encountered.
+  </dd>
 
   <dt>Learning of Concepts and Material</dt>
   <dd>The student has a good understanding of the material included in the assignment. Can easily answer questions about the content and procedures used to complete the assignment.</dd>
@@ -18,6 +24,9 @@ The following items are evaluated for all assignments submitted for grading to P
   <dt>Copyright</dt>
   <dd>Fair use guidelines are followed with clear, easy-to-locate and accurate citations for all borrowed material. No material is included from Web sites that state that permission is required unless permission has been obtained.
   </dd>
+
+  <dt>Partnership and/or Group Cooperation</dt>
+  <dd>When applicable, partners and/or group members show respect for one another's ideas, divide the work fairly, and show a commitment to quality work and support for each other.</dd>
 
 </dl>
 
