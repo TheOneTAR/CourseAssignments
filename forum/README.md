@@ -20,4 +20,4 @@ This single page website will be created completely from scratch. You will creat
 ### Inspiration
 - The web page's design must be inspired by the below illustration (get creative).
 <img src="star_wars_force.jpg" width= "90%" style="max-width: 500px" />
-Credit for the site's design inspiration must be given somewhere on the site, with a link to Starwars.com.
+- Credit for the site's design inspiration must be given somewhere on the site, with a link to Starwars.com.
