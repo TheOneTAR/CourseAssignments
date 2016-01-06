@@ -7,9 +7,6 @@ This single page website will be created completely from scratch. You will creat
 
 ### GET
 - URL: https://spreadsheets.google.com/feeds/list/1_fhQCe0wAmLs0FCOUDn4HZ8eyDq6QHcvQngF7n4e96I/default/public/values?alt=json-in-script
-- additional data you need to send: {
-  format: 'json'
-}
 - dataType: 'jsonp'
 
 ### POST
