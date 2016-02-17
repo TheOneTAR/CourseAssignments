@@ -10,7 +10,7 @@
          document.getElementById('{{ q.id }}').addEventListener('click', function () {
                var single = $.ajax("{% url "single_question" q.id %}")
                   .done(function (result) {
-                     console.log(result);
+                     document.getElementById('star').innerHTML = result;
                   })
 
          });
@@ -28,6 +28,12 @@
 
    </div>
 {% endfor %}
+
+<div>
+   <h2>Star Question!!</h2>
+   <div id="star">
+   </div>
+</div>
 
 </body>
 
