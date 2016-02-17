@@ -1,12 +1,13 @@
 
-      <h3>{{ question }}</h3>
-      <span>{{ question.pub_date }}</span>
-      {% if question.choice_set.all %}
-      <ul>
-         {% for choice in question.choices %}
-            <li>{{ choice }}</li>
-         {% endfor %}
-      </ul>
-      {% else %}
-         <p>No choices</p>
-      {% endif %}
+
+   <h3>{{ question }}</h3>
+   <span>{{ question.pub_date }}</span>
+   {% if question.choice_set.all %}
+   <ul>
+      {% for choice in question.choices %}
+         <li>{{ choice }}</li>
+      {% endfor %}
+   </ul>
+   {% else %}
+      <p>No choices</p>
+   {% endif %}

@@ -16,24 +16,14 @@
          });
       </script>
       <span>{{ q.pub_date }}</span>
-      {% if q.choice_set.all %}
-      <ul>
-         {% for choice in q.choices %}
-            <li>{{ choice }}</li>
-         {% endfor %}
-      </ul>
-      {% else %}
-         <p>No choices</p>
-      {% endif %}
-
+ 
    </div>
 {% endfor %}
 
-<div>
-   <h2>Star Question!!</h2>
+   <h2>Star Question</h2>
    <div id="star">
+
    </div>
-</div>
 
 </body>
 
