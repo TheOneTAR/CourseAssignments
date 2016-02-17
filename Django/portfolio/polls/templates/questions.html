@@ -1,0 +1,35 @@
+<html>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<body>
+
+{% for q in questions %}
+   <div>
+      <h3 id="{{ q.id }}">{{ q }}</h3>
+      <script>
+
+         document.getElementById('{{ q.id }}').addEventListener('click', function () {
+               var single = $.ajax("{% url "single_question" q.id %}")
+                  .done(function (result) {
+                     console.log(result);
+                  })
+
+         });
+      </script>
+      <span>{{ q.pub_date }}</span>
+      {% if q.choice_set.all %}
+      <ul>
+         {% for choice in q.choices %}
+            <li>{{ choice }}</li>
+         {% endfor %}
+      </ul>
+      {% else %}
+         <p>No choices</p>
+      {% endif %}
+
+   </div>
+{% endfor %}
+
+</body>
+
+
+</html>

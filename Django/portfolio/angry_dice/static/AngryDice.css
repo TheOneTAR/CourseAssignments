@@ -1,0 +1,55 @@
+#Stage{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 2px red;
+}
+#dice_image_one {
+  display: inline;
+}
+
+#dice_image_two {
+  display: inline;
+}
+#images {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+#ROLL{
+  font-family: Impact, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  background-color: red;
+}
+#Save_die_one{
+    font-family: Impact, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    background-color: red;
+}
+#Save_die_two {
+    font-family: Impact, sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    background-color: red;
+}
+
+h1 {
+  color: red;
+  font-family: Harrington, sans-serif;
+  font-variant: small-caps;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  background-color: ivory;
+  box-shadow: 10px 10px 9px #DD5C0B;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top: thick double #DD5C0B;
+}

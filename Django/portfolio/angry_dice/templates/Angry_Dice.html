@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% load staticfiles %}
+
+    <title>Angry Dice</title>
+    <link rel="stylesheet" href="{% static 'AngryDice.css' %}" />
+  </head>
+  <body>
+    <h1>Angry Dice</h1>
+    <div id='images'>
+    <p id="dice_image_one"></p>
+    <p id="dice_image_two"></p>
+    </div>
+    <div id="Stage"></div>
+    <div class="buttons">
+    <button id="ROLL">ROLL</button>
+    <button id="Save_die_one" value="OFF">SAVE THIS DIE</button>
+    <button id="Save_die_two" value="OFF">SAVE THIS DIE</button>
+    </div>
+
+<script src="{% static 'AngryDice.js' %}"></script>
+  </body>
+</html>
