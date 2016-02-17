@@ -6,11 +6,6 @@ from .models import Question, Choice
 def questions(request):
    things = Question.objects.all()
 
-   for q in things:
-      choices = Choice.objects.filter(question=q)
-      q.choices = choices
-
-
    context = {'questions':things}
 
    return render(request, 'questions.html', context)
@@ -19,6 +14,11 @@ def questions(request):
 def single_question(request, question_id):
 
    question = Question.objects.get(id=question_id)
+
+
+   choices = Choice.objects.filter(question=question)
+   question.choices = choices
+
 
    context = {'question': question}
 
