@@ -6,11 +6,11 @@ The assignment is to create a very basic forum, using HTML, CSS, and Javascript,
 This single page website will be created completely from scratch. You will create the HTML, CSS, and Javascript needed. Below is the API information you need to post and get from then spreadsheet.
 
 ### GET
-- URL: https://spreadsheets.google.com/feeds/list/1_fhQCe0wAmLs0FCOUDn4HZ8eyDq6QHcvQngF7n4e96I/default/public/values?alt=json-in-script
+- URL: https://spreadsheets.google.com/feeds/list/1NlIJLGd32t38kt6mJgc64SFpDM_ltq7nfzaRjV1wpLI/default/public/values?alt=json-in-script
 - dataType: 'jsonp'
 
 ### POST
-- URL: https://docs.google.com/forms/d/13VwG7osI2qVSGPTw8Dl2LICxUzAi3DwACfkTW5I1ocM/formResponse
+- URL: https://docs.google.com/forms/d/1W1jO8DwInFuzlabeYqEp6hUUUqDbR8gESs1Pk6qozOc/formResponse
 - dataType: 'xml'
 - additional data you need to send: {"entry_1358166143": title, "entry_1289920291": bodytext}
 
