@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="static/poll_site/styles.css">
+
+   <body>
+      <h1>Hello World, {{ name }}</h1>
+
+      <div>This is a paragraph about how awesome Web Pages are. The best color in the world is {{ fav_color }}.
+         <a href="{% url 'corgis' %}">Why are Corgis Great?</a>
+
+         <h2>{{ name }}'s Favorite Toys</h2>
+         <ul>
+            {% for item in toys %}
+               <li>{{ item }}</li>
+            {% endfor %}
+         </ul>
+
+      </div>
+
+      <div>
+         <h3>Questions!</h3>
+
+         <ul>
+            {% for q in questions %}
+               <li><a href="{% url 'question_details' q.id %}">{{ q.question_text }}</a></li>
+               <ul>
+               {% for choice in q.choice_set.all %}
+                  <li>{{ choice.choice_text }}</li>
+               {% endfor %}
+               </ul>
+            {% endfor %}
+         </ul>
+      </div>
+
+
+   </body>
+
+</html>
