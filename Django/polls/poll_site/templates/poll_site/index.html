@@ -1,9 +1,6 @@
-<!DOCTYPE html>
+{% extends 'poll_site/base_template.html' %}
 
-<html>
-<link rel="stylesheet" type="text/css" href="static/poll_site/styles.css">
-
-   <body>
+   {% block main_content %}
       <h1>Hello World, {{ name }}</h1>
 
       <div>This is a paragraph about how awesome Web Pages are. The best color in the world is {{ fav_color }}.
@@ -33,7 +30,4 @@
          </ul>
       </div>
 
-
-   </body>
-
-</html>
+   {% endblock %}

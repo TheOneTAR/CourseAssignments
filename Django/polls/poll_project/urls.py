@@ -21,7 +21,7 @@ from poll_site import urls as poll_urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', hello_world_render),
+    url(r'^$', hello_world_render, name='homepage'),
     url(r'^polls/', include(poll_urls)),  
 
 

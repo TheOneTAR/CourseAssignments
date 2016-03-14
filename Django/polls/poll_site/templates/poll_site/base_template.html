@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<link rel="stylesheet" type="text/css" 
+      href="{% static 'poll_site/styles.css' %}">
+
+<body>
+
+   <nav>
+      <a href="{% url 'homepage' %}">Home</a> | 
+      <a href="{% url 'corgis' %}">Corgis</a>
+   </nav>
+
+   {% block main_content %}
+
+   <div>
+      <h1>There seems to be an error</h1>
+   </div>
+
+   {% endblock %}
+
+
+</body>
+</html>
